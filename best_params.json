@@ -1,0 +1,40 @@
+{
+  "XGBoost": {
+    "n_estimators": 600,
+    "learning_rate": 0.0558092123279379,
+    "max_depth": 10,
+    "subsample": 0.7088962551012498,
+    "colsample_bytree": 0.9130906615974345,
+    "reg_alpha": 6.584960681163429,
+    "reg_lambda": 1.209993697688344,
+    "min_child_weight": 1,
+    "val_smape": 0.927312319327189
+  },
+  "LightGBM": {
+    "n_estimators": 1200,
+    "learning_rate": 0.04602931080642092,
+    "num_leaves": 110,
+    "max_depth": 9,
+    "subsample": 0.7349081759710601,
+    "colsample_bytree": 0.9088413507383932,
+    "reg_alpha": 0.5074992949381694,
+    "reg_lambda": 8.598298511688162,
+    "min_child_samples": 62,
+    "val_smape": 0.9334630807697237
+  },
+  "Prophet": {
+    "changepoint_prior_scale": 0.1,
+    "seasonality_mode": "additive",
+    "val_smape": 9.383869145531845
+  },
+  "PatchTST": {
+    "input_size": 672,
+    "hidden_size": 128,
+    "n_heads": 8,
+    "val_smape": 3.843983297627309
+  },
+  "Chronos": {
+    "variant": "amazon/chronos-t5-base",
+    "val_smape": 3.6331857199020394
+  }
+}
